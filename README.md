@@ -7,6 +7,7 @@ Course 2: Python Data Structures.py has all my notes and exercises for the secon
 
 Course 3: Python to Access Web Data.py contains my notes for class 3.  
   ~ This part of the material is much more heavily commented because I am less familiar with web scraping and communicating with the Internet.
+  
   ~ I would like to follow-up this part of the course with Introduction to Networking
 
 .txt Files: These files are provided by Dr. Chuck and used in the exercises / assignments.
