@@ -47,8 +47,8 @@ print('All done')
 
 
 astr = 'Hello Bob'
-istr = int(astr)
-print('First', istr)
+# istr = int(astr)
+# print('First', istr)
 astr = '123'
 istr = int(astr)
 print('Second', istr)
@@ -70,7 +70,7 @@ r = float(rate)
 
 if h > 40:
     pay = 40 * r + (h - 40) * 1.5 * r
-elif h <= 40 & h > 0:
+elif h <= 40 and h > 0:
     pay = 40 * 4
 else:
     pay = 0

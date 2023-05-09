@@ -136,7 +136,7 @@ print(friends)
 
 # Strings are immutable...we cannot change parts of the string
 best_friend = "Willa"
-best_friend[0] = "K"
+# best_friend[0] = "K" # Traceback with TypeError, exit code 1
 print(best_friend)
 
 # Length function len works the same for lists and strings
@@ -268,7 +268,7 @@ print(chunks)
 
 # Chapter 8 quiz double checking... 100% score
 fruit = 'Banana'
-fruit[0] = 'b'
+# fruit[0] = 'b'
 print(fruit)
 
 x = list(range(5))
@@ -343,7 +343,7 @@ family['brother'] = 'Peter'
 family['self'] = 'Emily'
 print(family)
 print(family['self'])
-print(family['Emily'])  # Emily is not the tag
+# print(family['Emily'])  # error because Emily is not the tag
 # mother, father, etc. are the "lookup tags" for the dictionary
 # Kim, Dan etc are the values associated with the tags
 
